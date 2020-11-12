@@ -8,88 +8,88 @@
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
-        <!-- surrounds main content -->
-    <div id="page-wrap">
-        <div class="container">
-            <div id="header">
-                <!-- logo -->
-                <h1><a href="#"> Illumination 101</a></h1>
+   
+    <!-- surrounds main content -->
 
-                <!-- nav bar 1 -->
-                <ul id="nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Archive</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-
-                <!-- social media links -->
-                <ul id="social">
-                    <li class="twitter"><a href="#">Follow me on twitter</a></li>
-                    <li class="discord"><a href="#">Join the Discord</a></li>
-                </ul>
-
-            <!-- end of header -->
+    <div class="container">
+      <!-- open header container -->
+        <div class="row" id="header">
+            <!-- logo -->
+            <div class="col-12"><h1><a href="#"> Illumination 101</a></h1></div>
+            
+        
+        <div class="row" id="menu-bar" >
+            <!-- nav bar 1 -->
+            <div class="col"><a href="#">Home</a></div>
+            <div class="col"><a href="#">About</a></div>
+            <div class="col"><a href="#">Archive</a></div>
+            <div class="col"><a href="#">Contact</a></div>
+            
+        </div>
+            <!-- social media links -->
+            
+            <div class="col"><a href="#">Follow me on twitter</a></div>
+            <div class="col"><a href="#">Join the Discord</a></div>
+          </div>
+        <!-- end of header container -->
+        </div>
+        <!-- contains main and side bars -->
+        <div id="content">
+            <!-- contains all posts and basic navigation -->
+            <div class="main">
+            <article class="post">
+                <div class="title"><h2>Title 1</h2></div>
+                <p class="date">12<span>Nov</span></p>
+                <div class="subtitle"><h4>Title description</h4></div>
+                <div class="fakeimg">a</div>
+                <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus aliquam dolor, eu lacinia lorem placerat vulputate.
+                    Duis felis orci, pulvinar id metus ut, rutrum luctus orci. Cras porttitor imperdiet nunc, at ultricies tellus laoreet sit amet. Sed auctor cursus massa at porta. Integer ligula ipsum, tristique sit amet orci vel, viverra egestas ligula.
+                    Curabitur vehicula tellus neque, ac ornare ex malesuada et. In vitae convallis lacus. Aliquam erat volutpat. Suspendisse
+                    ac imperdiet turpis. Aenean finibus sollicitudin eros pharetra congue. Duis ornare egestas augue ut luctus. Proin blandit
+                    quam nec lacus varius commodo et a urna. Ut id ornare felis, eget fermentum sapien.</p>
+            </article>
+            <article class="post">
+                <div class="title"><h2>Title 2</h2></div>
+                <p class="date">12<span>Nov</span></p>
+                <div class="subtitle"><h4>Title description</h4></div>
+                <div class="fakeimg">IMAGE</div>
+                <p>some more text..,,,  </p>
+            </article>
+            <div class="pagination">
+                <p class="prev"><a href="#">Previous</a></p>
+                <p class="next"><a href="#">Next</a></p>
             </div>
-            <!-- contains main and side bars -->
-            <div id="content">
-                <!-- contains all posts and basic navigation -->
-                <div class="main">
-                <article class="post">
-                    <div class="title"><h2>Title 1</h2></div>
-                    <p class="date">12<span>Nov</span></p>
-                    <div class="subtitle"><h4>Title description</h4></div>
-                    <div class="fakeimg">a</div>
-                    <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus aliquam dolor, eu lacinia lorem placerat vulputate.
-                        Duis felis orci, pulvinar id metus ut, rutrum luctus orci. Cras porttitor imperdiet nunc, at ultricies tellus laoreet sit amet. Sed auctor cursus massa at porta. Integer ligula ipsum, tristique sit amet orci vel, viverra egestas ligula.
-                        Curabitur vehicula tellus neque, ac ornare ex malesuada et. In vitae convallis lacus. Aliquam erat volutpat. Suspendisse
-                        ac imperdiet turpis. Aenean finibus sollicitudin eros pharetra congue. Duis ornare egestas augue ut luctus. Proin blandit
-                        quam nec lacus varius commodo et a urna. Ut id ornare felis, eget fermentum sapien.</p>
-                </article>
-                <article class="post">
-                    <div class="title"><h2>Title 2</h2></div>
-                    <p class="date">12<span>Nov</span></p>
-                    <div class="subtitle"><h4>Title description</h4></div>
-                    <div class="fakeimg">IMAGE</div>
-                    <p>some more text..,,,  </p>
-                </article>
-                <div class="pagination">
-                    <p class="prev"><a href="#">Previous</a></p>
-                    <p class="next"><a href="#">Next</a></p>
+            <!-- end of content/main -->
+            </div>
+            <!-- contains author and blog info -->
+            <div id="side">
+                <div class="card" id="author">
+                    <h2>The Author</h2>
+                    <div class="fakeimg"> b</div>
+                    <p>Fau</p>
                 </div>
-                <!-- end of content/main -->
+                <div class="card" id="contact">
+                    <h2>Contact</h2>
+                    <ul>
+                        <li>email: <a href="mailto:AAAAAAAAAA"> AAAAAAAAA</a></li>
+                    </ul>
                 </div>
-                <!-- contains author and blog info -->
-                <div id="side">
-                    <div class="card" id="author">
-                        <h2>The Author</h2>
-                        <div class="fakeimg"> b</div>
-                        <p>Fau</p>
-                    </div>
-                    <div class="card" id="contact">
-                        <h2>Contact</h2>
-                        <ul>
-                            <li>email: <a href="mailto:AAAAAAAAAA"> AAAAAAAAA</a></li>
-                        </ul>
-                    </div>
-                    <div class="card" id="partners">
-                        <h2> Partners </h2>
-                        <ul>
-                            <li><a href="#"> you ;)</a></li>
-                        </ul>
-                    </div>
-                <!-- end of content/side  -->
+                <div class="card" id="partners">
+                    <h2> Partners </h2>
+                    <ul>
+                        <li><a href="#"> you ;)</a></li>
+                    </ul>
                 </div>
+            <!-- end of content/side  -->
             </div>
         </div>
-        <div id="footer-container">
-            <div id="footer">
-                <div id="tweet"><p id="follow"><a href="#">Follow me</a></p></div>
-            </div>
+    </div>
+    <div id="footer-container">
+        <div id="footer">
+            <div id="tweet"><p id="follow"><a href="#">Follow me</a></p></div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="app.js"></script>
-
     </body>
 </html>
