@@ -7,40 +7,38 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <link rel="stylesheet" href="main.css">
     </head>
-    <body>
+<body>
    
-    <!-- surrounds main content -->
+<!-- surrounds main content -->
+<div class="container-fluid">
+      <header class="row justify-content-center">
+      <!-- logo -->
+        <div class="col col-lg-10">
+          <h1><a href="#">Illumination 101</a></h1>
+        </div>
+      </header>
+      <nav class="row justify-content-center">
+        <!-- nav bar 1 -->  
+        <div class="col offset-lg-1"><a href="#">Archive</a></div>
+        <!-- social media links -->
 
-    <div class="container">
-      <!-- open header container -->
-        <div class="row" id="header">
-            <!-- logo -->
-            <div class="col-12"><h1><a href="#"> Illumination 101</a></h1></div>
-            
-        
-        <div class="row" id="menu-bar" >
-            <!-- nav bar 1 -->
-            <div class="col"><a href="#">Home</a></div>
-            <div class="col"><a href="#">About</a></div>
-            <div class="col"><a href="#">Archive</a></div>
-            <div class="col"><a href="#">Contact</a></div>
-            
-        </div>
-            <!-- social media links -->
-            
-            <div class="col"><a href="#">Follow me on twitter</a></div>
-            <div class="col"><a href="#">Join the Discord</a></div>
-          </div>
-        <!-- end of header container -->
-        </div>
+        <div class="col-lg-1"> </div>
+      </nav>
         <!-- contains main and side bars -->
-        <div id="content">
-            <!-- contains all posts and basic navigation -->
-            <div class="main">
+    
+    <div class="row justify-content-center" id="body">
+        <!-- contains all posts and basic navigation -->
+        
+        <div class="col-lg-8 offset-lg-1" id="main">
+            <hr>
             <article class="post">
-                <div class="title"><h2>Title 1</h2></div>
-                <p class="date">12<span>Nov</span></p>
-                <div class="subtitle"><h4>Title description</h4></div>
+                <div class="row" id="post-title">
+                    <div class="col title"><h3>Title 1</h3></div>
+                </div>
+                <div class="row">
+                    <div class="col-9 subtitle"><h5> -Title description</h5></div>
+                    <div class="col-3"><p class="date">November 12, 2020</p></div>
+                </div>
                 <div class="fakeimg">a</div>
                 <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus aliquam dolor, eu lacinia lorem placerat vulputate.
                     Duis felis orci, pulvinar id metus ut, rutrum luctus orci. Cras porttitor imperdiet nunc, at ultricies tellus laoreet sit amet. Sed auctor cursus massa at porta. Integer ligula ipsum, tristique sit amet orci vel, viverra egestas ligula.
@@ -48,47 +46,44 @@
                     ac imperdiet turpis. Aenean finibus sollicitudin eros pharetra congue. Duis ornare egestas augue ut luctus. Proin blandit
                     quam nec lacus varius commodo et a urna. Ut id ornare felis, eget fermentum sapien.</p>
             </article>
-            <article class="post">
-                <div class="title"><h2>Title 2</h2></div>
-                <p class="date">12<span>Nov</span></p>
-                <div class="subtitle"><h4>Title description</h4></div>
-                <div class="fakeimg">IMAGE</div>
-                <p>some more text..,,,  </p>
-            </article>
-            <div class="pagination">
-                <p class="prev"><a href="#">Previous</a></p>
-                <p class="next"><a href="#">Next</a></p>
+            <hr>
+            <div class="row" id="pagination">
+            
+                <div class="col"><p class="prev"><a href="#">Previous</a></p></div>
+                <div class="col"><p class="next"><a href="#">Next</a></p></div>
             </div>
             <!-- end of content/main -->
-            </div>
-            <!-- contains author and blog info -->
-            <div id="side">
-                <div class="card" id="author">
-                    <h2>The Author</h2>
-                    <div class="fakeimg"> b</div>
-                    <p>Fau</p>
-                </div>
-                <div class="card" id="contact">
-                    <h2>Contact</h2>
-                    <ul>
-                        <li>email: <a href="mailto:AAAAAAAAAA"> AAAAAAAAA</a></li>
-                    </ul>
-                </div>
-                <div class="card" id="partners">
-                    <h2> Partners </h2>
-                    <ul>
-                        <li><a href="#"> you ;)</a></li>
-                    </ul>
-                </div>
-            <!-- end of content/side  -->
-            </div>
         </div>
-    </div>
-    <div id="footer-container">
-        <div id="footer">
-            <div id="tweet"><p id="follow"><a href="#">Follow me</a></p></div>
+        <!-- contains author and blog info -->
+        <div class="col-sm-2" id="side">
+            <div class="row cardbox" id="author">
+                <h4><a href=#>The Author</a></h4>
+                
+                <p>Fau</p>
+            </div>
+            <div class="row cardbox" id="contact">
+                <h4>Contact</h4>
+                
+                <ul>
+                    <li>email: <a href="mailto:AAAAAAAAAA"> AAAAAAAAA</a></li>
+                </ul>
+                  
+            </div>
+            <div class="row cardbox" id="partners">
+                <h4>See also</h4>
+                
+                <ul>
+                    <li><a href="#"> you ;)</a></li>
+                </ul>
+                
+            </div>
+        <!-- end of content/side  -->
         </div>
+        <div class="col-lg-1"></div>
     </div>
+    
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="app.js"></script>
     </body>
