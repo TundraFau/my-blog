@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article class="post">
+    <div class="row" id="post-title">
+        <div class="col title"><h3>{{page.title}}</h3></div>
+    </div>
+    <div class="row">
+        <div class="col-9 subtitle"><h5>{{page.subtitle}}</h5></div>
+        <div class="col-3"><p class="date">{{page.date | date_to_string}}</p></div>
+    </div>
+    {{content}}
+</article>

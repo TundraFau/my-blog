@@ -1,5 +1,5 @@
 body{
-  font-family:monospace;
+  font-family:'Open Sans',monospace;
   font-size: large;
   background-color: rgb(40, 41, 40);
   color: rgb(231,231,231);
@@ -56,3 +56,10 @@ a{
   font-size: large;
 }
 
+.current {
+  color: rgb(60, 196, 245)
+}
+
+.post-list {
+  list-style-type:square;
+}

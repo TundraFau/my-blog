@@ -1,0 +1,65 @@
+body{
+  font-family:'Open Sans',monospace;
+  font-size: large;
+  background-color: rgb(40, 41, 40);
+  color: rgb(231,231,231);
+}
+#header{
+  text-align: center;
+}
+
+.main {
+  margin-top: 30px;
+}
+.prev {
+  float: left;   
+}
+.next{
+  float:right;
+}
+a{
+  color: rgb(138, 219, 248);
+}
+
+.cardbox{
+  background: rgb(36, 36, 36);
+  border: 1px solid rgb(27, 27, 27);
+  border-radius: 5px;
+  min-height: 200px;
+  
+}
+#partners li{
+  margin-left: -40px;
+}
+
+#contact li{
+  margin-left:-40px;
+}
+  .cardbox h4{
+    font-family: 'Times New Roman', monospace;
+  }
+  .cardbox li{
+    list-style: none;
+    margin: -10px;
+  }
+
+.title, .subtitle{
+  font-family: 'Times New Roman',monospace;
+}
+.subtitle{
+  font-style:italic  ;
+  color:rgb(177, 174, 174) ;
+}
+
+.date{
+  float: right;
+  font-size: large;
+}
+
+.current {
+  color: rgb(60, 196, 245)
+}
+
+.post-list {
+  list-style-type:square;
+}
